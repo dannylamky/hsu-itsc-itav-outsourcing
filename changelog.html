@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Change logs — HSUHK ITSC IT &amp; AV onsite support outsourcing</title>
+<meta name="description" content="Full change logs: per issue round, per document version history, and the QA review rounds.">
+<style>
+:root{--navy:#0f2537;--navy2:#16354d;--ink:#14212b;--muted:#5b6b7a;--line:#d9e1e8;
+--bg:#f6f8fa;--card:#fff;--accent:#b28a3c;--ok:#1f7a4d;--warn:#a8621b;--info:#2a5f8f;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans HK","Microsoft JhengHei",Roboto,Helvetica,Arial,sans-serif;
+font-size:15px;line-height:1.6}
+header.site{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#eef3f7;padding:34px 0 30px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+.crumbs{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#9fb6c8;margin:0 0 10px}
+h1{margin:0 0 8px;font-size:29px;line-height:1.25;font-weight:650;letter-spacing:-.01em}
+.sub{margin:0;color:#c3d3df;max-width:820px}
+nav.site{position:sticky;top:0;z-index:9;background:#fff;border-bottom:1px solid var(--line);
+box-shadow:0 1px 3px rgba(16,37,55,.06)}
+nav.site .wrap{display:flex;gap:22px;align-items:center;height:50px;overflow-x:auto}
+nav.site a{color:var(--navy);text-decoration:none;font-size:13.5px;font-weight:600;white-space:nowrap}
+nav.site a:hover{color:var(--accent)}
+nav.site a.here{color:var(--accent)}
+main{padding:30px 0 10px}
+section{margin:0 0 34px}
+h2{font-size:19px;margin:0 0 4px;letter-spacing:-.01em}
+h2 .n{color:var(--accent);font-weight:600;margin-right:8px}
+p.lead{margin:0 0 14px;color:var(--muted);max-width:900px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:6px 0 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+.card .k{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.card .v{font-size:26px;font-weight:650;letter-spacing:-.02em;margin-top:2px}
+.card .d{font-size:12.5px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);
+border-radius:8px;overflow:hidden;font-size:13.5px}
+thead th{background:#eef2f6;text-align:left;font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;
+color:#3c5164;padding:9px 11px;border-bottom:1px solid var(--line);font-weight:650;white-space:nowrap}
+tbody td{padding:9px 11px;border-bottom:1px solid #edf1f5;vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even) td{background:#fbfcfd}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+code,.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;font-size:12.5px;
+background:#eef2f6;padding:1px 5px;border-radius:4px;color:#243b4d}
+.pill{display:inline-block;font-size:11px;font-weight:650;letter-spacing:.05em;text-transform:uppercase;
+padding:2px 8px;border-radius:99px;border:1px solid}
+.pill.ok{color:var(--ok);border-color:#b7ddc8;background:#eef8f2}
+.pill.warn{color:var(--warn);border-color:#f0d3b0;background:#fdf4ea}
+.pill.info{color:var(--info);border-color:#c3d8ea;background:#eef5fb}
+.pill.muted{color:var(--muted);border-color:#dde4ea;background:#f2f5f8}
+.note{background:#fff;border:1px solid var(--line);border-left:3px solid var(--accent);
+border-radius:6px;padding:12px 15px;color:#33485a;font-size:13.5px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:820px){.grid2{grid-template-columns:1fr}h1{font-size:23px}}
+details{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:0 14px;margin:0 0 10px}
+details>summary{cursor:pointer;padding:12px 0;font-weight:600;font-size:14px;list-style:none}
+details>summary::-webkit-details-marker{display:none}
+details>summary:before{content:"▸";color:var(--accent);margin-right:9px;display:inline-block;transition:.15s}
+details[open]>summary:before{transform:rotate(90deg)}
+details .inner{padding:2px 0 14px;font-size:13.5px;color:#2c3e4d}
+details .inner ul{margin:6px 0 0;padding-left:20px}
+input[type=search]{width:100%;max-width:380px;padding:8px 12px;border:1px solid var(--line);border-radius:6px;
+font-size:13.5px;margin:0 0 12px;background:#fff}
+footer{border-top:1px solid var(--line);margin-top:26px;padding:20px 0 40px;color:var(--muted);font-size:12.5px}
+a{color:#1d5a8e}
+.tag{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+ul.tight{margin:6px 0 0;padding-left:20px}
+ul.tight li{margin:3px 0}
+</style></head><body>
+<header class="site"><div class="wrap">
+<p class="crumbs">HSUHK · ITSC · Outsourcing IT &amp; AV onsite support</p>
+<h1>Change logs</h1>
+<p class="sub">Three views of the same record: what each issue round changed, what each document
+version changed, and what QA raised and closed in each review round.</p>
+</div></header>
+<nav class="site"><div class="wrap"><a href="index.html">Overview</a><a href="index.html#rounds">Issue rounds</a><a href="index.html#documents">Document register</a><a href="index.html#references">References</a><a href="changelog.html" class="here">Change logs</a><a href="changelog.html#qa">QA rounds</a></div></nav>
+<main><div class="wrap">
+<section id="issue">
+<h2><span class="n">01</span>Change log by issue round</h2>
+<p class="lead">Read from each pack's release note. Figures, tables and scenario letters A–E are unchanged
+unless a row says otherwise.</p>
+<details open><summary>R9 — 2026-11-12 · 4 English and 4 Chinese Word files</summary>
+<div class="inner"><p class="lead" style="margin:0 0 10px">Pack <span class="mono">06_issue/R9_2026-11-12/</span></p>
+<table class=""><thead><tr><th>#</th><th>Change</th><th>Reason / authority</th></tr></thead><tbody><tr><td class="num">1</td><td>Status lines in the three masters (EN + ZH) updated to "QA sign-off passed (Round 8, 2026-11-12)"; version v3 rev 1 → v3 rev 2 (Round 8 minor #1). No figure, table or scenario changed.</td><td></td></tr><tr><td class="num">2</td><td>Research: three source URLs no longer carry inline glosses — R4 "(job-posting ranges)" moved to the description cell; the two §6 SLA-reference URLs now carry their label and access date before the URL</td><td>Round 8 minor #2</td></tr><tr><td class="num">3</td><td>Pack index added: this register and its Chinese counterpart</td><td>Round 8 minor #3</td></tr></tbody></table></div></details><details open><summary>R8 — 2026-11-12 · 4 English and 4 Chinese Word files</summary>
+<div class="inner"><p class="lead" style="margin:0 0 10px">Pack <span class="mono">06_issue/R8_2026-11-12/</span></p>
+<table class=""><thead><tr><th>#</th><th>Change</th><th>Reason / authority</th></tr></thead><tbody><tr><td class="num">1</td><td>Three Chinese counterparts (v3 rev 1) written in standard written Traditional Chinese and issued as controlled Word documents; each headed "與英文版 v3 同步" with matching sections, tables, figures and A–E.</td><td>Language rule (register §F); QA finding B12; client Word-format request (2026-11-12).</td></tr><tr><td class="num">2</td><td>B12 closed (zero simplified characters, zero colloquial markers in all three ZH files). B13 closed (English version log now matches the files on disk).</td><td>QA review log, Rounds 7–8.</td></tr><tr><td class="num">3</td><td>No figure, table, scenario or SLA value changed.</td><td>Faithful-translation rule; English master governs.</td></tr></tbody></table></div></details><details open><summary>R7 — 2026-11-12 · 10 English and 7 Chinese Word files</summary>
+<div class="inner"><p class="lead" style="margin:0 0 10px">Pack <span class="mono">06_issue/R7_2026-11-12/</span></p>
+<ul><li>This pack carried no change table of its own; the change record for the round is the QA review log for the same day. Each file carries its own revision history and change log.</li></ul><table class=""><thead><tr><th>File in pack</th><th>Version</th><th>Source</th></tr></thead><tbody><tr><td>00_document-register_v1.0.docx</td><td class="num">1.0</td><td>05_qa/2026-11-12_document-register_R7.md</td></tr><tr><td>00_document-register_v1.0_ZH.docx</td><td class="num">1.0</td><td>05_qa/2026-11-12_document-register_R7_ZH.md</td></tr><tr><td>01_assumptions-register_v1.2.docx</td><td class="num">1.2</td><td>00_assumptions-register.md</td></tr><tr><td>01_assumptions-register_v1.2_ZH.docx</td><td class="num">1.2</td><td>00_assumptions-register_ZH.md</td></tr><tr><td>02_draft-proposal_v3-rev1.docx</td><td>3 rev 1</td><td>03_draft_proposal/2026-11-11_draft_proposal_v3_babybot.md</td></tr><tr><td>03_market-rates_v3-rev1.docx</td><td>3 rev 1</td><td>01_research/2026-11-11_market_rates_v3_babybot.md</td></tr><tr><td>04_current-state-baseline_v3-rev1.docx</td><td>3 rev 1</td><td>02_current_setup/2026-11-11_baseline_template_v3_babybot.md</td></tr><tr><td>05_cost-model_v2.docx</td><td class="num">2</td><td>03_draft_proposal/2026-11-11_cost-model_v2_codingbot.md</td></tr><tr><td>05_cost-model_v2_ZH.docx</td><td class="num">2</td><td>03_draft_proposal/2026-11-11_cost-model_v2_codingbot_ZH.md</td></tr><tr><td>06_technical-service-design_v2.docx</td><td class="num">2</td><td>03_draft_proposal/2026-11-11_technical-service-design_v2_codingbot.md</td></tr><tr><td>06_technical-service-design_v2_ZH.docx</td><td class="num">2</td><td>03_draft_proposal/2026-11-11_technical-service-design_v2_codingbot_ZH.md</td></tr><tr><td>07_QA-review-framework_v1.docx</td><td class="num">1</td><td>05_qa/2026-11-11_QA-review-framework_v1.md</td></tr><tr><td>07_QA-review-framework_v1_ZH.docx</td><td class="num">1</td><td>05_qa/2026-11-11_QA-review-framework_v1_ZH.md</td></tr><tr><td>08_verified-facts-baseline_v1.docx</td><td class="num">1</td><td>05_qa/2026-11-11_verified-facts-baseline_v1.md</td></tr><tr><td>08_verified-facts-baseline_v1_ZH.docx</td><td class="num">1</td><td>05_qa/2026-11-11_verified-facts-baseline_v1_ZH.md</td></tr><tr><td>09_review-log_v7.0.docx</td><td class="num">7.0</td><td>05_qa/2026-11-11_review-log.md</td></tr><tr><td>09_review-log_v7.0_ZH.docx</td><td class="num">7.0</td><td>05_qa/2026-11-11_review-log_ZH.md</td></tr></tbody></table></div></details>
+</section>
+
+<section id="documents">
+<h2><span class="n">02</span>Change log by document</h2>
+<p class="lead">Version history carried inside each controlled document. A version with no logged change
+is not a version.</p>
+<details><summary>ITAV-DCR-01 · Document register (pack index) — v1.1 · BabyBot</summary>
+<div class="inner"><table class=""><thead><tr><th>Version</th><th>Date</th><th>Author</th><th>Changes</th></tr></thead><tbody><tr><td>v1.0</td><td class="num">2026-11-12</td><td>QA Bot</td><td>First pack index, issued with R7: 10 English documents and 7 Chinese counterparts; three Chinese files withheld under B12/B13.</td></tr><tr><td>v1.1</td><td class="num">2026-11-12</td><td>BabyBot</td><td>Issued with R9 at QA Bot's request (Round 8 minor finding). Indexes the three BabyBot masters advanced to v3 rev 2 and supersedes the v1.0 entries for those three documents only; v1.0 continues to govern the CodingBot and QA documents.</td></tr></tbody></table></div></details><details><summary>ITAV-REG-01 · Assumptions register — v1.2 · QA Bot</summary>
+<div class="inner"><table class=""><thead><tr><th>Revision</th><th>Date</th><th>Author</th><th>Change</th></tr></thead><tbody><tr><td>v1.0</td><td class="num">2026-11-11</td><td>QA Bot</td><td>First issue after QA Round 2</td></tr><tr><td>v1.1</td><td class="num">2026-11-11</td><td>QA Bot</td><td>§F language pairing added; §A buffer corrected to 3.0 h / 126 h (25.0 h with buffer); §D end-of-shift response boundary rule added</td></tr><tr><td>v1.2</td><td class="num">2026-11-12</td><td>QA Bot</td><td>§G issue format, version control and change logs added; revision history formalised; issued as a controlled Word document in pack R7</td></tr></tbody></table></div></details><details><summary>ITAV-PRO-01 · Draft proposal — v3 rev 2 · BabyBot</summary>
+<div class="inner"><table class=""><thead><tr><th>Version</th><th>Date</th><th>Author</th><th>QA round</th><th>Changes</th></tr></thead><tbody><tr><td>v1</td><td class="num">2026-11-11</td><td>BabyBot</td><td class="num">—</td><td>First draft. Superseded, kept (..._v1_babybot.md)</td></tr><tr><td>v2</td><td class="num">2026-11-11</td><td>BabyBot</td><td>Round 1</td><td>Fixes B1–B4, M1–M7, N1–N6. Superseded, kept (..._v2_babybot.md)</td></tr><tr><td>v3</td><td class="num">2026-11-11</td><td>BabyBot</td><td>Round 2</td><td>Fixes B5–B11, M8–M13, N7–N10 (change note above); executive summary (§0); cost table imported unchanged from cost model v2 §4; single SLA/credit set (register §D); Tuen Ma Line route; mobilisation line; single open-questions list (§11)</td></tr><tr><td>v3 rev 1</td><td class="num">2026-11-12</td><td>BabyBot</td><td>Round 4</td><td>M15 relief wording (§3); M16 register note (change-note N7 row); document control &amp; change log added; professional Word format issued (EN + ZH pair); Chinese counterpart rewritten in written Traditional Chinese (B12). No figure, table or scenario change.</td></tr><tr><td>v3 rev 2</td><td class="num">2026-11-12</td><td>BabyBot</td><td>Round 8</td><td>QA minor fix: status line updated to QA sign-off passed (Round 8). No figure, table or scenario change.</td></tr></tbody></table></div></details><details><summary>ITAV-RES-01 · Market and pricing research — v3 rev 2 · BabyBot</summary>
+<div class="inner"><table class=""><thead><tr><th>Version</th><th>Date</th><th>Author</th><th>QA round</th><th>Changes</th></tr></thead><tbody><tr><td>v1</td><td class="num">2026-11-11</td><td>BabyBot</td><td class="num">—</td><td>First draft. Superseded, kept (2026-11-11_market_rates_babybot.md)</td></tr><tr><td>v2</td><td class="num">2026-11-11</td><td>BabyBot</td><td>Round 1</td><td>QA Round 1 fixes (M5 sourcing, premium handling). Superseded, kept (..._v2_babybot.md)</td></tr><tr><td>v3</td><td class="num">2026-11-11</td><td>BabyBot</td><td>Round 2</td><td>B9 band deleted (single rate source = cost model v2 §2); M11 re-sourcing; M13 cross-reference; hours/scenario letters follow the register (change note above)</td></tr><tr><td>v3 rev 1</td><td class="num">2026-11-12</td><td>BabyBot</td><td>Round 4</td><td>M16 register note replaced (register §A now reads 3.0 h/126 h); document control &amp; change log added; professional Word format issued (EN + ZH pair); Chinese counterpart rewritten in written Traditional Chinese (B12). No figure, table or scenario change.</td></tr><tr><td>v3 rev 2</td><td class="num">2026-11-12</td><td>BabyBot</td><td>Round 8</td><td>QA minor fixes: status line updated to QA sign-off passed (Round 8); three source URLs no longer carry inline glosses (R4 "(job-posting ranges)" moved to the description cell; the two §6 SLA-reference URLs now carry their label and access date before the URL). No figure, table or scenario change.</td></tr></tbody></table></div></details><details><summary>ITAV-BAS-01 · Current-state baseline — v3 rev 2 · BabyBot</summary>
+<div class="inner"><table class=""><thead><tr><th>Version</th><th>Date</th><th>Author</th><th>QA round</th><th>Changes</th></tr></thead><tbody><tr><td>v1</td><td class="num">2026-11-11</td><td>BabyBot</td><td class="num">—</td><td>First draft. Superseded, kept (2026-11-11_baseline_template_babybot.md)</td></tr><tr><td>v2</td><td class="num">2026-11-11</td><td>BabyBot</td><td>Round 1</td><td>QA Round 1 fixes (M1 framing, M2 room baseline). Superseded, kept (..._v2_babybot.md)</td></tr><tr><td>v3</td><td class="num">2026-11-11</td><td>BabyBot</td><td>Round 2</td><td>B5/B6 hours basis (core 22 h / buffer separate line); M8 route; M13 citations; N9/N10 wording (change note above)</td></tr><tr><td>v3 rev 1</td><td class="num">2026-11-12</td><td>BabyBot</td><td>Round 4</td><td>M16 register note replaced (register §A now reads 3.0 h/126 h); N13 Table 2B label corrected; document control &amp; change log added; professional Word format issued (EN + ZH pair); Chinese counterpart rewritten in written Traditional Chinese (B12). No figure, table or scenario change.</td></tr><tr><td>v3 rev 2</td><td class="num">2026-11-12</td><td>BabyBot</td><td>Round 8</td><td>QA minor fix: status line updated to QA sign-off passed (Round 8). No figure, table or scenario change.</td></tr></tbody></table></div></details><details><summary>ITAV-CST-01 · Cost model — v2 · CodingBot</summary>
+<div class="inner"><table class=""><thead><tr><th>Version</th><th>Date</th><th>Author</th><th>Changes</th></tr></thead><tbody><tr><td>v1</td><td class="num">2026-11-11</td><td>CodingBot</td><td>first model; 25.25 h/week, flat 375/h, relief double-counted.</td></tr><tr><td>v2</td><td class="num">2026-11-11</td><td>CodingBot</td><td>register basis 22 h core + buffer option; relief once; explicit utilisation 1.45; base pay 140; A–E; mobilisation line; remote rate derived; typhoon clause; reconciliation note; client-question list; bilingual _ZH counterpart issued.</td></tr></tbody></table></div></details><details><summary>ITAV-DES-01 · Technical service design — v2 · CodingBot</summary>
+<div class="inner"><table class=""><thead><tr><th>Version</th><th>Date</th><th>Author</th><th>Changes</th></tr></thead><tbody><tr><td>v1</td><td class="num">2026-11-11</td><td>CodingBot</td><td>first design; route basis wrong; buffer treated as core hours; SLA restated numbers.</td></tr><tr><td>v2</td><td class="num">2026-11-11</td><td>CodingBot</td><td>route corrected to direct Tuen Ma Line Shek Mun–Austin; six evening shifts wording; core/buffer split to the register; SLA references the register instead of restating; room-ready coupled to the buffer; typhoon clause aligned; cites proposal v3; bilingual _ZH counterpart issued.</td></tr></tbody></table></div></details><details><summary>ITAV-QAF-01 · QA review framework — v1 · QA Bot</summary>
+<div class="inner"><table class=""><thead><tr><th>Version</th><th>Date</th><th>Author</th><th>Changes</th></tr></thead><tbody><tr><td>v1</td><td class="num">2026-11-11</td><td>QA Bot</td><td>First issue (QA Round 0): acceptance criteria, review method and order, severity and disposition rules, twice-daily cadence, client questions that block costing sign-off.</td></tr></tbody></table></div></details><details><summary>ITAV-QVF-01 · Verified facts baseline — v1 · QA Bot</summary>
+<div class="inner"><table class=""><thead><tr><th>Version</th><th>Date</th><th>Author</th><th>Changes</th></tr></thead><tbody><tr><td>v1</td><td class="num">2026-11-11</td><td>QA Bot</td><td>First issue (QA Round 0): site facts verified against hsu.edu.hk and itsc.hsu.edu.hk, unit traps, costing items still to source, seven open questions to the client.</td></tr></tbody></table></div></details><details><summary>ITAV-QAL-01 · QA review log — rolling · QA Bot</summary>
+<div class="inner"><table class=""><thead><tr><th>Version</th><th>Date</th><th>Author</th><th>Changes</th></tr></thead><tbody><tr><td>v7.0</td><td class="num">2026-11-12</td><td>QA Bot</td><td>Issued as a controlled Word document with R7 at v7.0, carrying Rounds 0-7. Appended afterwards: the BabyBot delivery record, Round 8, and the M18/M19/M20 closure record; the log is append-only, so later rounds are additions, not a new version.</td></tr></tbody></table></div></details>
+</section>
+
+<section id="qa">
+<h2><span class="n">03</span>QA review rounds</h2>
+<p class="lead">Findings are labelled Blocker (B), Major (M) and Minor (N). The findings raised and closed
+columns list the identifiers; the verdict line states the disposition.</p>
+<table class=""><thead><tr><th>QA round</th><th>Date / time (HKT)</th><th>Findings raised</th><th>Closed</th><th>Verdict</th></tr></thead><tbody><tr><td>Round 0</td><td>2026-11-11 12:30 HKT</td><td>B1, B2, M1, M2, M3</td><td class="num">—</td><td>framework ready; no draft to pass or fail yet.</td></tr><tr><td>Round 1</td><td>2026-11-11 13:05 HKT</td><td>B1, B2, B3, B4, M1, M2, M3, M4, M5, M6, M7, N1, N2, N3, N4, N5, N6</td><td class="num">—</td><td>NOT PASSED — 4 blockers open. Draft must not go to ITSC in this state.</td></tr><tr><td>Round 2</td><td>2026-11-11 13:40 HKT</td><td>B5, B6, B7, B8, B9, B10, B11, M8, M9, M10, M11, M12, M13, N7, N8, N9, N10</td><td class="num">—</td><td>NOT PASSED — 7 blockers open. Both v2/v1 drafts are structurally sound; the failure is numeric and cross-document.</td></tr><tr><td>Round 3</td><td>2026-11-11 14:05 HKT</td><td class="num">—</td><td>B7, B8, B10, N7, N8, N10, M10, M13</td><td>CodingBot v2 English files PASS. Not yet sign-off for the document set: v3 and the Chinese versions are outstanding.</td></tr><tr><td>Round 4</td><td>2026-11-11 15:10 HKT</td><td>B12, M14, M15, M16, N11, N12, N13</td><td class="num">—</td><td>English set PASSES; Chinese set FAILS (B12); CodingBot Chinese files outstanding (M14).</td></tr><tr><td>Round 5</td><td>2026-11-11 21:00 HKT (routine round)</td><td>M17</td><td class="num">—</td><td>CodingBot's bilingual pair PASSES on language, structure and figures, with one Major wording fix (M17). Document set not signed off while B12 is open.</td></tr><tr><td>Round 6</td><td>2026-11-11 21:20 HKT (routine round)</td><td class="num">—</td><td class="num">—</td><td>no new defect. M17 closed. Document set still not signed off pending B12.</td></tr><tr><td>Round 7</td><td>2026-11-12 07:10 HKT (format round)</td><td>B12, B13</td><td class="num">—</td><td>English v3 rev 1 passes content. The Word issue standard is now in force. The document set is NOT signed off: B12 and B13 remain open and the Chinese pair is incomplete.</td></tr><tr><td>Delivery record — 2026-11-12 (BabyBot; B12/B13 closure, awaiting QA re-verification)</td><td></td><td class="num">—</td><td>B12, B13</td><td></td></tr><tr><td>Round 8</td><td>2026-11-12 09:05 HKT (routine round)</td><td>M18, M19, M20</td><td>B12</td><td>B12 and B13 closed. The bilingual set is complete: every controlled document now has an English master and a Chinese counterpart of the same version (the review log's Chinese file is a digest, permitted by §F.6). Content, tables, figures and A–E match. No Bloc</td></tr><tr><td>Delivery record — 2026-11-12 (BabyBot; M18/M19/M20 closure, R9 issue)</td><td></td><td class="num">—</td><td>M18, M19, M20</td><td></td></tr></tbody></table>
+</section>
+</div></main>
+<footer><div class="wrap">
+Generated 2026-11-12 09:33 HKT · Findings text and verdicts are quoted from the QA review log.
+</div></footer>
+</body></html>

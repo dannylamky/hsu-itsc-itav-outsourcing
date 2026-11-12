@@ -1,0 +1,409 @@
+{
+  "generated": "2026-11-12 09:33 HKT",
+  "project": "HSUHK ITSC — Outsourcing IT & AV onsite support",
+  "packs": [
+    {
+      "issue": "R7",
+      "date": "2026-11-12",
+      "folder": "R7_2026-11-12",
+      "en": 10,
+      "zh": 7,
+      "files": [
+        "00_document-register_v1.0.docx",
+        "00_document-register_v1.0_ZH.docx",
+        "01_assumptions-register_v1.2.docx",
+        "01_assumptions-register_v1.2_ZH.docx",
+        "02_draft-proposal_v3-rev1.docx",
+        "03_market-rates_v3-rev1.docx",
+        "04_current-state-baseline_v3-rev1.docx",
+        "05_cost-model_v2.docx",
+        "05_cost-model_v2_ZH.docx",
+        "06_technical-service-design_v2.docx",
+        "06_technical-service-design_v2_ZH.docx",
+        "07_QA-review-framework_v1.docx",
+        "07_QA-review-framework_v1_ZH.docx",
+        "08_verified-facts-baseline_v1.docx",
+        "08_verified-facts-baseline_v1_ZH.docx",
+        "09_review-log_v7.0.docx",
+        "09_review-log_v7.0_ZH.docx"
+      ],
+      "withheld": [
+        "Draft proposal v3 rev 1",
+        "Market and pricing research v3 rev 1",
+        "Current-state baseline v3 rev 1"
+      ],
+      "change_rows": [],
+      "purpose": [
+        "- Not verified: visual pagination and font rendering in Microsoft Word. The files specify Calibri and Microsoft JhengHei; a machine without those fonts will substitute them."
+      ],
+      "log_source": "2026-11-12_document-register_R7.md"
+    },
+    {
+      "issue": "R8",
+      "date": "2026-11-12",
+      "folder": "R8_2026-11-12",
+      "en": 4,
+      "zh": 4,
+      "files": [
+        "00_release-note_R8.docx",
+        "00_release-note_R8_ZH.docx",
+        "02_draft-proposal_v3-rev1.docx",
+        "02_draft-proposal_v3-rev1_ZH.docx",
+        "03_market-rates_v3-rev1.docx",
+        "03_market-rates_v3-rev1_ZH.docx",
+        "04_current-state-baseline_v3-rev1.docx",
+        "04_current-state-baseline_v3-rev1_ZH.docx"
+      ],
+      "withheld": [],
+      "change_rows": [
+        [
+          "1",
+          "Three Chinese counterparts (v3 rev 1) written in standard written Traditional Chinese and issued as controlled Word documents; each headed \"與英文版 v3 同步\" with matching sections, tables, figures and A–E.",
+          "Language rule (register §F); QA finding B12; client Word-format request (2026-11-12)."
+        ],
+        [
+          "2",
+          "B12 closed (zero simplified characters, zero colloquial markers in all three ZH files). B13 closed (English version log now matches the files on disk).",
+          "QA review log, Rounds 7–8."
+        ],
+        [
+          "3",
+          "No figure, table, scenario or SLA value changed.",
+          "Faithful-translation rule; English master governs."
+        ]
+      ],
+      "purpose": [
+        "Re-renders the three English masters (v3 rev 1) and issues their three Chinese",
+        "Closes B12 (Chinese files now pass the language rule: written Traditional",
+        "Leaves every figure, table and scenario unchanged. No content was restated."
+      ],
+      "log_source": "2026-11-12_R8_release-note.md",
+      "note_file": "2026-11-12_R8_release-note.md"
+    },
+    {
+      "issue": "R9",
+      "date": "2026-11-12",
+      "folder": "R9_2026-11-12",
+      "en": 4,
+      "zh": 4,
+      "files": [
+        "00_document-register_R9.docx",
+        "00_document-register_R9_ZH.docx",
+        "02_draft-proposal_v3-rev2.docx",
+        "02_draft-proposal_v3-rev2_ZH.docx",
+        "03_market-rates_v3-rev2.docx",
+        "03_market-rates_v3-rev2_ZH.docx",
+        "04_current-state-baseline_v3-rev2.docx",
+        "04_current-state-baseline_v3-rev2_ZH.docx"
+      ],
+      "withheld": [],
+      "change_rows": [
+        [
+          "",
+          "Status lines in the three masters (EN + ZH) updated to \"QA sign-off passed (Round 8, 2026-11-12)\"; version v3 rev 1 → v3 rev 2 (Round 8 minor #1). No figure, table or scenario changed.",
+          ""
+        ],
+        [
+          "",
+          "Research: three source URLs no longer carry inline glosses — R4 \"(job-posting ranges)\" moved to the description cell; the two §6 SLA-reference URLs now carry their label and access date before the URL",
+          "Round 8 minor #2"
+        ],
+        [
+          "",
+          "Pack index added: this register and its Chinese counterpart",
+          "Round 8 minor #3"
+        ]
+      ],
+      "purpose": [],
+      "log_source": "2026-11-12_document-register_R9.md"
+    }
+  ],
+  "documents": [
+    {
+      "id": "ITAV-DCR-01",
+      "title": "Document register (pack index)",
+      "version": "v1.1",
+      "owner": "BabyBot",
+      "kind": "Control",
+      "exists": true,
+      "zh_exists": true,
+      "status": "",
+      "modified": "2026-11-12 09:27",
+      "en": "05_qa/2026-11-12_document-register_R9.md",
+      "zh": "05_qa/2026-11-12_document-register_R9_ZH.md"
+    },
+    {
+      "id": "ITAV-REG-01",
+      "title": "Assumptions register",
+      "version": "v1.2",
+      "owner": "QA Bot",
+      "kind": "Baseline (binding)",
+      "exists": true,
+      "zh_exists": true,
+      "status": "Issued",
+      "modified": "2026-11-12 07:11",
+      "en": "00_assumptions-register.md",
+      "zh": "00_assumptions-register_ZH.md"
+    },
+    {
+      "id": "ITAV-PRO-01",
+      "title": "Draft proposal",
+      "version": "v3 rev 2",
+      "owner": "BabyBot",
+      "kind": "Deliverable",
+      "exists": true,
+      "zh_exists": true,
+      "status": "Draft — QA Round 4 fixes applied; QA sign-off passed (Round 8, 2026-11-12)",
+      "modified": "2026-11-12 09:24",
+      "en": "03_draft_proposal/2026-11-11_draft_proposal_v3_babybot.md",
+      "zh": "03_draft_proposal/2026-11-11_draft_proposal_v3_babybot_ZH.md"
+    },
+    {
+      "id": "ITAV-RES-01",
+      "title": "Market and pricing research",
+      "version": "v3 rev 2",
+      "owner": "BabyBot",
+      "kind": "Research",
+      "exists": true,
+      "zh_exists": true,
+      "status": "Draft — QA Round 4 fixes applied; QA sign-off passed (Round 8, 2026-11-12)",
+      "modified": "2026-11-12 09:24",
+      "en": "01_research/2026-11-11_market_rates_v3_babybot.md",
+      "zh": "01_research/2026-11-11_market_rates_v3_babybot_ZH.md"
+    },
+    {
+      "id": "ITAV-BAS-01",
+      "title": "Current-state baseline",
+      "version": "v3 rev 2",
+      "owner": "BabyBot",
+      "kind": "Baseline",
+      "exists": true,
+      "zh_exists": true,
+      "status": "Draft — QA Round 4 fixes applied; QA sign-off passed (Round 8, 2026-11-12)",
+      "modified": "2026-11-12 09:26",
+      "en": "02_current_setup/2026-11-11_baseline_template_v3_babybot.md",
+      "zh": "02_current_setup/2026-11-11_baseline_template_v3_babybot_ZH.md"
+    },
+    {
+      "id": "ITAV-CST-01",
+      "title": "Cost model",
+      "version": "v2",
+      "owner": "CodingBot",
+      "kind": "Deliverable",
+      "exists": true,
+      "zh_exists": true,
+      "status": "",
+      "modified": "2026-11-11 12:57",
+      "en": "03_draft_proposal/2026-11-11_cost-model_v2_codingbot.md",
+      "zh": "03_draft_proposal/2026-11-11_cost-model_v2_codingbot_ZH.md"
+    },
+    {
+      "id": "ITAV-DES-01",
+      "title": "Technical service design",
+      "version": "v2",
+      "owner": "CodingBot",
+      "kind": "Deliverable",
+      "exists": true,
+      "zh_exists": true,
+      "status": "",
+      "modified": "2026-11-11 21:04",
+      "en": "03_draft_proposal/2026-11-11_technical-service-design_v2_codingbot.md",
+      "zh": "03_draft_proposal/2026-11-11_technical-service-design_v2_codingbot_ZH.md"
+    },
+    {
+      "id": "ITAV-QAF-01",
+      "title": "QA review framework",
+      "version": "v1",
+      "owner": "QA Bot",
+      "kind": "QA",
+      "exists": true,
+      "zh_exists": true,
+      "status": "",
+      "modified": "2026-11-11 12:18",
+      "en": "05_qa/2026-11-11_QA-review-framework_v1.md",
+      "zh": "05_qa/2026-11-11_QA-review-framework_v1_ZH.md"
+    },
+    {
+      "id": "ITAV-QVF-01",
+      "title": "Verified facts baseline",
+      "version": "v1",
+      "owner": "QA Bot",
+      "kind": "QA",
+      "exists": true,
+      "zh_exists": true,
+      "status": "",
+      "modified": "2026-11-11 12:18",
+      "en": "05_qa/2026-11-11_verified-facts-baseline_v1.md",
+      "zh": "05_qa/2026-11-11_verified-facts-baseline_v1_ZH.md"
+    },
+    {
+      "id": "ITAV-QAL-01",
+      "title": "QA review log",
+      "version": "rolling",
+      "owner": "QA Bot",
+      "kind": "QA",
+      "exists": true,
+      "zh_exists": true,
+      "status": "",
+      "modified": "2026-11-12 09:29",
+      "en": "05_qa/2026-11-11_review-log.md",
+      "zh": "05_qa/2026-11-11_review-log_ZH.md"
+    }
+  ],
+  "qa_rounds": [
+    {
+      "name": "Round 0",
+      "when": "2026-11-11 12:30 HKT",
+      "raised": [
+        "B1",
+        "B2",
+        "M1",
+        "M2",
+        "M3"
+      ],
+      "closed": [],
+      "verdict": "framework ready; no draft to pass or fail yet."
+    },
+    {
+      "name": "Round 1",
+      "when": "2026-11-11 13:05 HKT",
+      "raised": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "N5",
+        "N6"
+      ],
+      "closed": [],
+      "verdict": "NOT PASSED — 4 blockers open. Draft must not go to ITSC in this state."
+    },
+    {
+      "name": "Round 2",
+      "when": "2026-11-11 13:40 HKT",
+      "raised": [
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "M8",
+        "M9",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "N7",
+        "N8",
+        "N9",
+        "N10"
+      ],
+      "closed": [],
+      "verdict": "NOT PASSED — 7 blockers open. Both v2/v1 drafts are structurally sound; the failure is numeric and cross-document."
+    },
+    {
+      "name": "Round 3",
+      "when": "2026-11-11 14:05 HKT",
+      "raised": [],
+      "closed": [
+        "B7",
+        "B8",
+        "B10",
+        "N7",
+        "N8",
+        "N10",
+        "M10",
+        "M13"
+      ],
+      "verdict": "CodingBot v2 English files PASS. Not yet sign-off for the document set: v3 and the Chinese versions are outstanding."
+    },
+    {
+      "name": "Round 4",
+      "when": "2026-11-11 15:10 HKT",
+      "raised": [
+        "B12",
+        "M14",
+        "M15",
+        "M16",
+        "N11",
+        "N12",
+        "N13"
+      ],
+      "closed": [],
+      "verdict": "English set PASSES; Chinese set FAILS (B12); CodingBot Chinese files outstanding (M14)."
+    },
+    {
+      "name": "Round 5",
+      "when": "2026-11-11 21:00 HKT (routine round)",
+      "raised": [
+        "M17"
+      ],
+      "closed": [],
+      "verdict": "CodingBot's bilingual pair PASSES on language, structure and figures, with one Major wording fix (M17). Document set not signed off while B12 is open."
+    },
+    {
+      "name": "Round 6",
+      "when": "2026-11-11 21:20 HKT (routine round)",
+      "raised": [],
+      "closed": [],
+      "verdict": "no new defect. M17 closed. Document set still not signed off pending B12."
+    },
+    {
+      "name": "Round 7",
+      "when": "2026-11-12 07:10 HKT (format round)",
+      "raised": [
+        "B12",
+        "B13"
+      ],
+      "closed": [],
+      "verdict": "English v3 rev 1 passes content. The Word issue standard is now in force. The document set is NOT signed off: B12 and B13 remain open and the Chinese pair is incomplete."
+    },
+    {
+      "name": "Delivery record — 2026-11-12 (BabyBot; B12/B13 closure, awaiting QA re-verification)",
+      "when": "",
+      "raised": [],
+      "closed": [
+        "B12",
+        "B13"
+      ],
+      "verdict": ""
+    },
+    {
+      "name": "Round 8",
+      "when": "2026-11-12 09:05 HKT (routine round)",
+      "raised": [
+        "M18",
+        "M19",
+        "M20"
+      ],
+      "closed": [
+        "B12"
+      ],
+      "verdict": "B12 and B13 closed. The bilingual set is complete: every controlled document now has an English master and a Chinese counterpart of the same version (the review log's Chinese file is a digest, permitted by §F.6). Content, tables, figures and A–E match. No Blockers. QA signs off the draft set; the three Minor items go to BabyBot for the next revision and do not block sign-off."
+    },
+    {
+      "name": "Delivery record — 2026-11-12 (BabyBot; M18/M19/M20 closure, R9 issue)",
+      "when": "",
+      "raised": [],
+      "closed": [
+        "M18",
+        "M19",
+        "M20"
+      ],
+      "verdict": ""
+    }
+  ]
+}
