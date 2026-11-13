@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 09:33 HKT",
+  "generated": "2026-11-13 13:08 HKT",
   "project": "HSUHK ITSC — Outsourcing IT & AV onsite support",
   "packs": [
     {
@@ -245,7 +245,7 @@
       "exists": true,
       "zh_exists": true,
       "status": "",
-      "modified": "2026-11-12 09:29",
+      "modified": "2026-11-12 09:44",
       "en": "05_qa/2026-11-11_review-log.md",
       "zh": "05_qa/2026-11-11_review-log_ZH.md"
     }
@@ -404,6 +404,19 @@
         "M20"
       ],
       "verdict": ""
+    },
+    {
+      "name": "Round 9",
+      "when": "2026-11-12 09:44 HKT (routine round)",
+      "raised": [
+        "M21",
+        "M22",
+        "M23",
+        "N21",
+        "N22"
+      ],
+      "closed": [],
+      "verdict": "The three masters pass at v3 rev 2; M18/M19/M20 are closed. The R9 pack is NOT signed off: 3 Majors (missing rev 1 row, wrong change-log scope, simplified 条 in the ZH register). Withhold 00_document-register_R9_ZH.docx; issue R10 with the corrected record."
     }
   ]
 }

@@ -3,7 +3,7 @@
 Static GitHub Pages site listing every issue round, the controlled document set and the full
 change logs. Generated from the project folder; do not edit by hand.
 
-Generated: 2026-11-12 09:33 HKT
+Generated: 2026-11-13 13:08 HKT
 
 ## Contents
 

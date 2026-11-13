@@ -1,6 +1,6 @@
 # Change log — HSUHK ITSC IT & AV onsite support outsourcing
 
-Generated 2026-11-12 09:33 HKT. English master governs.
+Generated 2026-11-13 13:08 HKT. English master governs.
 
 ## 1. By issue round
 
@@ -194,3 +194,9 @@ Pack: `06_issue/R9_2026-11-12/` — 4 English, 4 Chinese Word files.
 - Findings raised: —
 - Closed: M18, M19, M20
 - Verdict: —
+
+### Round 9 — 2026-11-12 09:44 HKT (routine round)
+
+- Findings raised: M21, M22, M23, N21, N22
+- Closed: —
+- Verdict: The three masters pass at v3 rev 2; M18/M19/M20 are closed. The R9 pack is NOT signed off: 3 Majors (missing rev 1 row, wrong change-log scope, simplified 条 in the ZH register). Withhold 00_document-register_R9_ZH.docx; issue R10 with the corrected record.
